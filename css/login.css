@@ -1,0 +1,78 @@
+
+/*登录/注册*/
+.loginForm{
+	padding: 165px 150px 0 300px;
+	width:810px;
+}
+#regist p{
+	margin-bottom: 14px;
+	font-size: 12px;
+}
+#regist #title{
+	padding:20px 0;
+}
+#regist_l{
+	width:48%;
+	margin-right: 4%;
+	float:left;
+}
+#regist h5{
+	padding-bottom:20px;
+}
+#regist_l h6{
+	margin:12px 0 6px;
+}
+#regist_l .regist_form{
+	width:180px;
+	height:26px;
+	border:1px solid black;
+	outline: none;
+}
+#regist_l a{
+	color:#ccc;
+	display: block;
+	margin:15px 0;
+	text-decoration:underline;
+}
+.btn01{
+	width:238px;
+	height:42px;
+	background: black;
+	border:none;
+	color:#ccc;
+}
+#regist_r{
+	width:48%;
+	float:left;
+	line-height: 20px;
+}
+/*help*/
+.help{
+	margin:150px 0 20px;
+	font-size: 12px;
+	line-height: 20px;
+	width:810px;
+	display: flex;
+	padding:20px 0;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+
+}
+.help dt{
+	font-weight: bold;
+	margin:10px 0;
+}
+.help dd{
+	text-indent: 8px;
+}
+.last_p1{
+	font-size: 12px;
+	display: flex;
+	justify-content: space-between;
+}
+.last_p2{
+	float:right;
+	font-size: 12px;
+	margin-bottom:20px;
+}

@@ -1,0 +1,108 @@
+
+*{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration:none;
+	color:black;
+	font-size:12px;
+}
+ul{
+	list-style:none;
+}
+/*header*/
+header{
+	height:165px;
+	width:100%;
+	position:fixed;
+	left:0;
+	top:0;
+	z-index:10;
+}
+.zara_logo{
+	height:20px;
+	margin:65px 0  0 85px;
+}
+#login_menu{
+	position:absolute;
+	right:20px;
+	top:20px;
+	font-weight:bold;
+}
+#search_box{
+	position:absolute;
+	right:20px;
+}
+#search_box input{
+	opacity: 0;
+}
+#head_search{
+	display: inline-block;
+	width:192px;
+	border-bottom: 1px solid black;
+}
+#b_search{
+	font-size:22px;	
+}
+/*nav*/
+#navBox{
+	position:fixed;
+	height:470px;
+	top:210px;
+	z-index:1;
+	overflow-y: hidden;
+}
+nav{
+	position:relative;
+	top:0;
+	margin-left:85px;
+	height:450px;
+}
+nav ul{
+	display: none;
+	font-size: 12px;
+	padding:20px 0 20px 20px;
+	font-weight: bold;
+}
+.ulShow{
+	display:block;
+}
+nav span{
+	font-size: 12px;
+}
+#news_a{
+	display: none;
+	line-height:20px;
+	padding-left: 16px;
+}
+/*help*/
+.help{
+	margin:150px 0 20px;
+	font-size: 12px;
+	line-height: 20px;
+	width:810px;
+	display: flex;
+	padding:20px 0;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+
+}
+.help dt{
+	font-weight: bold;
+	margin:10px 0;
+}
+.help dd{
+	text-indent: 8px;
+}
+.last_p1{
+	font-size: 12px;
+	display: flex;
+	justify-content: space-between;
+}
+.last_p2{
+	float:right;
+	font-size: 12px;
+	margin-bottom:20px;
+}

@@ -1,15 +1,4 @@
-/*section*/
 
-.topBox{
-	position: absolute;
-	left:0;
-	top:0;
-	width:100%;
-}
-section{
-	height:100%;
-	width:100%;
-}
 /*----------------------------------------------------------------------*/
 /*轮播图*/
 .cbp-bislideshow {
@@ -64,74 +53,4 @@ section{
 }
 .shop_uls li img{
 	width:100%;   
-}
-/*footer*/
-
-footer{
-	padding-left:85px;
-}
-#pop{
-	text-align: center;
-	margin:100px 0 35px;
-}
-#footer_form{
-	text-align: center;
-}
-#footer_form #form_email{
-	width:500px;
-	border-bottom:1px solid black;
-	margin:20px auto;
-}
-#form_email input{
-	font-size: 12px;
-	width:500px;
-	text-align: center;
-	border:none;
-	outline:none;
-}
-
-/*开始隐藏订阅项，通过输入keydown事件Email输入框显示*/
-#form_sex{
-	display: none;     
-}
-#footer_form p{
-	padding-bottom:10px;
-	/*display: none;*/
-}
-#acceptId{
-	padding:50px 0;
-}
-#pop_btn{
-	width:50px;
-	height:30px;
-	background: white;
-	border:1px solid black;
-	margin-top:20px;
-}
-#share{
-	margin:70px auto;
-	text-align:center;
-	font-size: 14px;
-	font-weight: bold;
-}
-#share a{
-	display: inline-block;
-	margin-right:10px;
-}
-#safe{
-	position:fixed;
-	bottom:25px;
-}
-#safe a{
-	float:left;
-	margin-right:15px;
-	font-size: 14px;
-}
-#safe .iconfont{
-	font-size: 14px;
-	color:red;
-}
-#safe .icon-luwangyujing{
-	font-size: 18px;
-	color:blue;
 }

@@ -11,6 +11,7 @@ $("nav h2,nav #info").click(function(){
 	$("body").load("index.html" )    
 });
 
+
 //注册页面，当光标离开提示“必选项”
 
 $(".userMsg input").blur(function(){
@@ -19,5 +20,13 @@ $(".userMsg input").blur(function(){
 	}
 })
 
-//省、市获取
+//省、市、区获取	
+//所有的省市数据（来自服务器）
 
+
+function showProvince(){
+	let province=$.getJSON("json/myCity.js");
+	for(var key in province){
+		$("<option>"+key+"</option>").appendTo($("#province"));
+	}
+}

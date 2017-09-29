@@ -22,6 +22,10 @@
 	$(".childAllshop li").click(function(){
 		$("section").load("shopping.html .c" )    //通过点h2下的副标题，进行页面转换  
 	});
+	
+	$(".shop_uls li img").click(function(){							//点击图片跳转到shoppingCar.html页面
+		
+	})
 // +资讯
   //根据滚动条的位置确定nav偏移程度 
 	$("#info").bind("click",function(){

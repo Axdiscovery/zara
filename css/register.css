@@ -6,6 +6,9 @@
 	font-size: 12px;
 	font-weight: bold;	
 }
+.userMsg p{
+	height:26px;
+}
 .userMsg p input{
 	width:180px;
 	height:26px;
@@ -13,7 +16,11 @@
 }
 .userMsg p span{
 	display: inline-block;
-	width:130px;
+	width:140px;
+}
+.userMsg p .hint{
+	display: inline-block;
+	width:280px;
 }
 .userMsg p select{
 	width:180px;
@@ -31,7 +38,7 @@
 	width:135px;
 }
 .btn01{
-	width:238px;
+	width:240px;
 	height:42px;
 	background: black;
 	border:none;

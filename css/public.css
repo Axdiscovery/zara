@@ -19,6 +19,7 @@ header{
 	left:0;
 	top:0;
 	z-index:10;
+	background: white;
 }
 .zara_logo{
 	height:20px;
@@ -57,7 +58,6 @@ section{
 	height:100%;
 	width:100%;
 }
-
 /*nav*/
 #navBox{
 	position:fixed;

@@ -1,7 +1,28 @@
+/*section*/
+section{
+	padding-top:165px;
+	overflow: hidden;
+	width:90%;
+	margin-left:10%;
+	display: flex;
+	justify-content: space-between;
+}
+#goodsShow{
+	flex:1;
+}
+#goodsShow img{
+	width:50%;
+}
+#goodsCar{
+	background: red;
+	height:1000px;
+	width:20%;
+}
 
 
 footer{
-margin : auto 10%;
-padding:0;
-width:80%;
+	margin : auto 10%;
+	padding:0;
+	width:80%;
+	overflow: hidden;
 }

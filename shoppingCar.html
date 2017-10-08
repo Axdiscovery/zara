@@ -9,140 +9,79 @@
 <body>
 <!-- header -->	
 	<header>
-		<a href="index.html">
-			<img src="img/logo-zara-16.svg" class="zara_logo" alt="zara_logo"/> 
-		</a>
-		<div id="login_menu">
-			<a href="login.html">登录</a>&nbsp;&nbsp;
-			<a href="#">联系方式</a>&nbsp;&nbsp;
-			<a href="shopping.html">购物车</a>
-		</div>
-		<div id="search_box">
-			<a href="search.html" id="head_search"><input type="text" /></a><b id="b_search">搜 索</b>
-		</div>
+		<!--通过js文件直接引入头部文件-->
 	</header>
 <!-- nav -->
-	<div id="navBox">
-			<nav>
-				<h2>本周精品</h2>
-				<h2>黄金周精选</h2>
-				<br/>
-				<h2>女士</h2>
-				<ul class="Allshop womanAllshop">
-					<li>特价精选</li>
-					<li>鞋</li>
-					<li>大衣</li>
-					<li>风衣</li>
-					<li>夹克外套</li>
-					<li>休闲西装</li>
-					<li>针织毛衣</li>
-					<li>连衣裙</li>
-					<li>包</li>
-				</ul>
-				<h2>TRF</h2>
-				<h2>男士</h2>
-				<ul class="Allshop manAllshop">
-					<li>特价精选</li>
-					<li>鞋</li>
-					<li>大衣</li>
-					<li>风衣</li>
-					<li>夹克外套</li>
-					<li>休闲西装</li>
-					<li>针织毛衣</li>
-					<li>连衣裙</li>
-					<li>包</li>
-				</ul>
-				<h2>儿童</h2>
-				<ul class="Allshop childAllshop">
-					<li>女童</li>
-					<li>男童</li>
-					<li>女婴</li>
-					<li>男婴</li>
-					<li>配饰系列</li>
-					<li>鞋</li>
-				</ul>
-				<br/>
-				<h2>JOIN LIFE</h2>
-				<br/>
-				<h2>EDITORIALS</h2>
-				<br/>
-				<span id="info">+ 资讯</span>	
-				<ul id="news_a">
-					<li><a href="#">Shape the invisible</a></li>
-					<li><a href="#">邮件订阅</a></li>
-					<li><a href="#">联系我们</a></li>
-					<li><a href="#">店铺</a></li>
-					<li><a href="#">购买指南</a></li>
-					<li><a href="#">媒体</a></li>
-					<li><a href="#">公司</a></li>	
-				</ul>
-			</nav>
-		</div>
+	<div id="navBox"><!--通过js文件直接引入头部文件--></div>
 <!-- section -->  
 	<div class="topBox">
-		<section>  			<!--	单件商品展示		--> 
-	        			
+		<section> <!--	单件商品展示		--> 
+			<div id="goodsShow"></div>
+			<div id="goodsCar">			<!--购物详情-->
+				<h3>IDENTITY 系列配腰带长款大衣</h3>
+			</div>      
 		</section>
 	<!-- footer -->
 		<footer>
-		<h2 id="pop">订阅最新流行趋势</h2>
-		<form id="footer_form">
-			<p id="form_email" ><input type="text" id="footer_Ipt" name="email" placeholder="输入您的邮箱地址"/></p>
-			<div id="form_sex">
-				<p><input type="checkbox" name="woman"><label>女士</label></p>
-				<p><input type="checkbox" name="man"><label>男士</label></p>
-				<p><input type="checkbox" name="kid"><label>儿童</label></p>
-				<p id="acceptId"><input type="checkbox" name="accept"> <label>我接受</label><a href="">&nbsp;&nbsp;隐私条款</a></p>
-				<p><input type="button" value="订阅" id="pop_btn"></p>
+			<h2 id="pop">订阅最新流行趋势</h2>
+			<form id="footer_form">
+				<p id="form_email" ><input type="text" id="footer_Ipt" name="email" placeholder="输入您的邮箱地址"/></p>
+				<div id="form_sex">
+					<p><input type="checkbox" name="woman"><label>女士</label></p>
+					<p><input type="checkbox" name="man"><label>男士</label></p>
+					<p><input type="checkbox" name="kid"><label>儿童</label></p>
+					<p id="acceptId"><input type="checkbox" name="accept"> <label>我接受</label><a href="">&nbsp;&nbsp;隐私条款</a></p>
+					<p><input type="button" value="订阅" id="pop_btn"></p>
+				</div>
+			</form>
+				<p id="share">
+					<a href="http://weibo.com/zara">WEIBO</a>
+					<a href="http://weixin.qq.com/cgi-bin/readtemplate?check=false&t=w_indexn73&uin=&stype=10037102&promote=1003799&fr=&">WECHAT</a>
+					<a href="http://i.youku.com/u/UMzYyMzgxMDc2">YOUKU</a>
+				</p>
+			<div class="help">
+				<dl>
+					<dt>购买指南</dt>
+					<dd><a href="#">如何购买</a></dd>
+					<dd><a href="#">常见问题</a></dd>
+					<dd><a href="#">支付</a></dd>
+					<dd><a href="#">配送</a></dd>
+					<dd><a href="#">退货</a></dd>
+					<dd><a href="#">更换</a></dd>
+					<dd><a href="#">我的账户</a></dd>
+					<dd><a href="#">召回的产品</a></dd>
+				</dl>
+				<dl>
+					<dt>关注我们</dt>
+					<dd>NEWSLETTER</dd>
+					<dd>WEICHAT</dd>
+					<dd>WEIBO</dd>
+					<dd>YOUKU</dd>
+					<dd>APPS</dd>
+				</dl>
+				<dl>
+					<dt>政策</dt>
+					<dd>隐私声明</dd>
+					<dd>购买条款</dd>
+				</dl>
+				<dl>
+					<dt>公司</dt>
+					<dd><a href="#">关于我们</a></dd>
+					<dd><a href="#">办事处</a></dd>
+					<dd><a href="#">商店</a></dd>
+					<dd><a href="#">加入我们</a></dd>
+					<dd><a href="#">联系我们</a></dd>
+					<dd><a href="#">上海工商</a></dd>
+					<dd><a href="#">沪ICP备12030822号</a></dd>
+				</dl>
 			</div>
-		</form>
-			<p id="share">
-				<a href="http://weibo.com/zara">WEIBO</a>
-				<a href="http://weixin.qq.com/cgi-bin/readtemplate?check=false&t=w_indexn73&uin=&stype=10037102&promote=1003799&fr=&">WECHAT</a>
-				<a href="http://i.youku.com/u/UMzYyMzgxMDc2">YOUKU</a>
-			</p>
-		<div class="help">
-						<dl>
-							<dt>购买指南</dt>
-							<dd><a href="#">如何购买</a></dd>
-							<dd><a href="#">常见问题</a></dd>
-							<dd><a href="#">支付</a></dd>
-							<dd><a href="#">配送</a></dd>
-							<dd><a href="#">退货</a></dd>
-							<dd><a href="#">更换</a></dd>
-							<dd><a href="#">我的账户</a></dd>
-							<dd><a href="#">召回的产品</a></dd>
-						</dl>
-						<dl>
-							<dt>关注我们</dt>
-							<dd>NEWSLETTER</dd>
-							<dd>WEICHAT</dd>
-							<dd>WEIBO</dd>
-							<dd>YOUKU</dd>
-							<dd>APPS</dd>
-						</dl>
-						<dl>
-							<dt>政策</dt>
-							<dd>隐私声明</dd>
-							<dd>购买条款</dd>
-						</dl>
-						<dl>
-							<dt>公司</dt>
-							<dd><a href="#">关于我们</a></dd>
-							<dd><a href="#">办事处</a></dd>
-							<dd><a href="#">商店</a></dd>
-							<dd><a href="#">加入我们</a></dd>
-							<dd><a href="#">联系我们</a></dd>
-							<dd><a href="#">上海工商</a></dd>
-							<dd><a href="#">沪ICP备12030822号</a></dd>
-						</dl>
-	</div>
-		<P class="last_p1"><span>CHINA/中国</span><span>简体中文丨ENGLISH</span></P>
-		<p class="last_p2">© 2010 ZARA, all rights reserved</p>
-	</footer>
+			<P class="last_p1"><span>CHINA/中国</span><span>简体中文丨ENGLISH</span></P>
+			<p class="last_p2">© 2010 ZARA, all rights reserved</p>
+		</footer>
 	</div>
 </body>
 <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
-<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/public.js"></script>
+<script src="js/shoppingCar.js"></script> 
 </html>
 

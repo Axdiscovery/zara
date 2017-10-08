@@ -23,10 +23,12 @@ $(".userMsg input").blur(function(){
 //省、市、区获取	
 //所有的省市数据（来自服务器）
 
-
-function showProvince(){
-	let province=$.getJSON("json/myCity.js");
-	for(var key in province){
-		$("<option>"+key+"</option>").appendTo($("#province"));
-	}
-}
+$(function(){
+	$("#province").citySelect({
+		prov:"湖南", 
+		city:"长沙",
+		dist:"岳麓区",
+		nodata:"none"
+	});
+	
+});

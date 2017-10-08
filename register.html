@@ -10,9 +10,11 @@
 			<p><span>重复密码*</span><input type="password" name="repeatpass"/><span class="hint"></span></p>
 			<h5>联系信息</h5>
 			<p><span>名*</span><input type="text" name="username"/><span class="hint"></span></p>
-			<p><span>直辖市/省*</span><select class="province"></select> 省<span class="hint"></span></p>
-			<p><span>市*</span><select class="city"></select> 市<span class="hint"></span></p>
-			<p><span>区域*</span><select class="dist"></select> 区/县<span class="hint"></span></p>
+			<div id="province">
+				<p><span>直辖市/省*</span><select class="prov"></select> 省<span class="hint"></span></p>
+				<p><span>市*</span><select class="city" disabled="disabled"></select> 市<span class="hint"></span></p>
+				<p><span>区域*</span><select class="dist" disabled="disabled"></select> 区/县<span class="hint"></span></p>
+			</div>
 			<p><span>国家*</span><span>China/中国</span></p>
 			<p><span>地址*</span><input type="text" name="dress"><span class="hint"></span></p>
 			<p><span>邮政编码*</span><input type="text" name="post_code"/><span class="hint"></span></p>
@@ -24,4 +26,5 @@
 		</div>
 	</div>
 	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="js/jquery.cityselect.js"></script>
 	<script type="text/javascript" src="js/login.js"></script>

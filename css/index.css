@@ -33,7 +33,7 @@
 	margin-top: 60px;
 }
 .shop_uls li{
-	flex:1;	
+	flex:1;
 	margin:1%;
 	position: relative;
 }
@@ -52,5 +52,5 @@
 	text-align: center;
 }
 .shop_uls li img{
-	width:100%;   
+	width:100%;
 }

@@ -3,13 +3,14 @@
 		<h5 id="title">在 ZARA.CN 注册</h5>
 		<p>请填写下表来在 Zara.cn 注册。</p>
 		<p>我们将会保存您提供的资料以方便您在网上购物。</p>
-		<div class="userMsg">
+		<form class="userMsg" action="php/register.php" method="post">
 			<h5>账户信息</h5>
-			<p><span>电子邮箱地址*</span><input type="text" name="email"/><span class="hint"></span></p>
-			<p><span>密码*</span><input type="password" name="password"/><span class="hint"></span></p>
+			<p><span>会员编号*</span><input type="text" name="userId" id="userId"/><span class="hint" id="hint"></span></p>
+			<p><span>电子邮箱地址*</span><input type="text" name="userEmail"/><span class="hint"></span></p>
+			<p><span>密码*</span><input type="password" name="userPass"/><span class="hint"></span></p>
 			<p><span>重复密码*</span><input type="password" name="repeatpass"/><span class="hint"></span></p>
 			<h5>联系信息</h5>
-			<p><span>名*</span><input type="text" name="username"/><span class="hint"></span></p>
+			<p><span>名*</span><input type="text" name="userName"/><span class="hint"></span></p>
 			<div id="province">
 				<p><span>直辖市/省*</span><select class="prov"></select> 省<span class="hint"></span></p>
 				<p><span>市*</span><select class="city" disabled="disabled"></select> 市<span class="hint"></span></p>
@@ -17,14 +18,13 @@
 			</div>
 			<p><span>国家*</span><span>China/中国</span></p>
 			<p><span>地址*</span><input type="text" name="adress"><span class="hint"></span></p>
-			<p><span>邮政编码*</span><input type="text" name="post_code"/><span class="hint"></span></p>
 			<p><span>电话（手机）*</span><input type="text" value="+86" id="tel_one"/><input type="text" name="telephone" id="tel_two"/><span class="hint"></span></p>
 			<p id="enable">* 必填栏</p>
 			<div><input type="checkbox" name=""/> 我想用我的邮箱接收关于 Zara 新品的信息</div>
 			<div><input type="checkbox" name=""/> 我接受<a href="#">隐私条款</a></div>
-			<input type="button" name="username" value="创建用户名" class="btn01"/>
-		</div>
+			<input type="submit" id="newUser" value="创建用户名" class="btn01"/>
+		</form>
 	</div>
-	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
-	<script type="text/javascript" src="js/jquery.cityselect.js"></script>
-	<script type="text/javascript" src="js/login.js"></script>
+<SCRIPT Language=VBScript><!--
+
+//--></SCRIPT>

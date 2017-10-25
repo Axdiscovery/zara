@@ -1,3 +1,6 @@
+header{
+	background: white;
+}
 /*section*/
 section{
 	padding-top:165px;
@@ -7,22 +10,147 @@ section{
 	display: flex;
 	justify-content: space-between;
 }
+
+section ul{
+	width:30%;
+}
+section img {
+	width:100%;
+}
 #goodsShow{
 	flex:1;
 }
 #goodsShow img{
-	width:50%;
+	width:48%;
+	margin-left:1%;
 }
 #goodsCar{
-	background: red;
 	height:1000px;
 	width:20%;
+	padding:87px 55px 20px;
+}
+.firstH6{
+	margin-top:30px;
+}
+.firstH6+p{
+	color:#ccc;
+	font-size:12px;
+}
+.secondH6{
+	padding:50px 0 20px;
+	border-bottom: 1px solid black;
+}
+.goodsCarUls{
+	padding:20px 0;
+
+}
+.goodsCarUls li{
+	color:#666;
+	font-size:12px;
+	line-height:28px;
+	width:225px;
+}
+.threeH6{
+	padding:20px 0;
+	border-top: 1px dashed black;
+	border-bottom: 1px solid black;
+}
+.addGoods{
+	width:225px;
+	margin-top:30px;
+	height:38px;
+	line-height:38px;
+	background: black;
+	color:white;
+	border:none;
 }
 
+/*购物篮------------------------*/
+.basketUls{
+	width:200px;
+	height:320px;
+	border:1px solid black;
+	position: fixed;
+	right:20px;
+	top:50px;
+	padding:20px;
+	z-index:999;
+	background: white;
+	display: none;
+}
+.basketUls li img {
+	width:50px;
+	float:left;
+}
+.basketUls li div{
+	float:left;
+	margin:15px 0 0 20px;
+	font-size:12px;
+}
+.basketUls li input{
+	position:absolute;
+	bottom:20px;
+	left:20px;
+	width:200px;
+	height:40px;
+	border:2px solid black;
+	background:white;
+	color:black;
+	font-weight: bold;
+}
+/*购物车*/
 
+.carTable{
+	border-collapse:collapse;
+	width:70%;
+	margin:10% 0 0 10%;
+	border-top:1px dashed #ccc;
+}
+.carTable tr{
+	border-bottom:1px dashed #ccc;
+	font-size:12px;
+	height:90px;
+}
+.carTable tr:nth-child(1),.carTable tr:nth-child(2){
+	font-weight: bold;
+	height:45px;
+}
+.carCode{
+	color:#ccc;
+}
+.carNum{
+	display: flex;
+	padding-top: 20px;
+}
+.carNum span{
+	margin:10px 10px 0 0;
+}
+.carNum input{
+	display: block;
+	background: black;
+	border:none;
+	color:white;
+	width:20px;
+	margin-top: 5px;
+}
+.lastTr{
+	background: #ccc;
+	height:150px;
+}
+/*------------------------------------------------------------*/
 footer{
 	margin : auto 10%;
 	padding:0;
 	width:80%;
 	overflow: hidden;
+}
+/*聊天按钮*/
+.chatBtn{
+	position:fixed;
+	bottom:0;
+	right:80px;
+	width:150px;
+	height:40px;
+	border:1px solid black;
+	background: white;
 }

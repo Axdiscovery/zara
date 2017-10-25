@@ -19,7 +19,6 @@ header{
 	left:0;
 	top:0;
 	z-index:10;
-	background: white;
 }
 .zara_logo{
 	height:20px;
@@ -121,7 +120,6 @@ footer{
 }
 #footer_form p{
 	padding-bottom:10px;
-	/*display: none;*/
 }
 #acceptId{
 	padding:50px 0;

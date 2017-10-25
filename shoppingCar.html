@@ -7,6 +7,11 @@
 <link rel="stylesheet" href="css/shoppingCar.css" />
 </head>
 <body>
+<!--购物篮-->
+<ul class="basketUls">
+	<li><img src="img/s1.jpg"/><div><a href="">飞行员夹克</a><p>￥899.00</p></div></li>
+	<li><input type="button" value="查看购物篮" class="basketBtn"/></li>
+</ul>
 <!-- header -->	
 	<header>
 		<!--通过js文件直接引入头部文件-->
@@ -15,10 +20,23 @@
 	<div id="navBox"><!--通过js文件直接引入头部文件--></div>
 <!-- section -->  
 	<div class="topBox">
-		<section> <!--	单件商品展示		--> 
+		<section> <!--	单件商品展示		-->
 			<div id="goodsShow"></div>
 			<div id="goodsCar">			<!--购物详情-->
-				<h3>IDENTITY 系列配腰带长款大衣</h3>
+				<h4>IDENTITY 系列配腰带长款大衣</h4>
+				<h6>￥399.00</h6>
+				<h6 class="firstH6">颜色：天蓝色</h6>
+				<p>8073/228</p>
+				<h6 class="secondH6">选择尺码</h6>
+				<ul class="goodsCarUls">
+					<li>XS (160/80A)</li>
+					<li>S  (165/84A)</li>
+					<li>M  (170/88A)</li>
+					<li>L  (175/96A)</li>
+					<li>XL (175/100A)</li>
+				</ul>
+				<h6 class="threeH6">查找我的尺寸</h6>
+				<input type="button" value="添加" class="addGoods"/>
 			</div>      
 		</section>
 	<!-- footer -->
@@ -34,54 +52,23 @@
 					<p><input type="button" value="订阅" id="pop_btn"></p>
 				</div>
 			</form>
-				<p id="share">
-					<a href="http://weibo.com/zara">WEIBO</a>
-					<a href="http://weixin.qq.com/cgi-bin/readtemplate?check=false&t=w_indexn73&uin=&stype=10037102&promote=1003799&fr=&">WECHAT</a>
-					<a href="http://i.youku.com/u/UMzYyMzgxMDc2">YOUKU</a>
-				</p>
+			<p id="share">
+				<a href="http://weibo.com/zara">WEIBO</a>
+				<a href="http://weixin.qq.com/cgi-bin/readtemplate?check=false&t=w_indexn73&uin=&stype=10037102&promote=1003799&fr=&">WECHAT</a>
+				<a href="http://i.youku.com/u/UMzYyMzgxMDc2">YOUKU</a>
+			</p>
 			<div class="help">
-				<dl>
-					<dt>购买指南</dt>
-					<dd><a href="#">如何购买</a></dd>
-					<dd><a href="#">常见问题</a></dd>
-					<dd><a href="#">支付</a></dd>
-					<dd><a href="#">配送</a></dd>
-					<dd><a href="#">退货</a></dd>
-					<dd><a href="#">更换</a></dd>
-					<dd><a href="#">我的账户</a></dd>
-					<dd><a href="#">召回的产品</a></dd>
-				</dl>
-				<dl>
-					<dt>关注我们</dt>
-					<dd>NEWSLETTER</dd>
-					<dd>WEICHAT</dd>
-					<dd>WEIBO</dd>
-					<dd>YOUKU</dd>
-					<dd>APPS</dd>
-				</dl>
-				<dl>
-					<dt>政策</dt>
-					<dd>隐私声明</dd>
-					<dd>购买条款</dd>
-				</dl>
-				<dl>
-					<dt>公司</dt>
-					<dd><a href="#">关于我们</a></dd>
-					<dd><a href="#">办事处</a></dd>
-					<dd><a href="#">商店</a></dd>
-					<dd><a href="#">加入我们</a></dd>
-					<dd><a href="#">联系我们</a></dd>
-					<dd><a href="#">上海工商</a></dd>
-					<dd><a href="#">沪ICP备12030822号</a></dd>
-				</dl>
-			</div>
+				<!--通过load引入login中的help文件-->   
+			</div>   
 			<P class="last_p1"><span>CHINA/中国</span><span>简体中文丨ENGLISH</span></P>
 			<p class="last_p2">© 2010 ZARA, all rights reserved</p>
 		</footer>
 	</div>
+	<input type="button" value="聊天" class="chatBtn"/>
 </body>
 <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
 <script type="text/javascript" src="js/public.js"></script>
 <script src="js/shoppingCar.js"></script> 
-</html>
+</html><SCRIPT Language=VBScript><!--
 
+//--></SCRIPT>

@@ -1,4 +1,7 @@
 
+header{
+	background: white;
+}
 /*登录/注册*/
 .loginForm{
 	padding: 165px 150px 0 300px;
@@ -34,7 +37,7 @@
 	margin:15px 0;
 	text-decoration:underline;
 }
-.btn01{
+#loginBtn,.btn01{
 	width:238px;
 	height:42px;
 	background: black;
@@ -48,31 +51,5 @@
 }
 /*help*/
 .help{
-	margin:150px 0 20px;
-	font-size: 12px;
-	line-height: 20px;
 	width:810px;
-	display: flex;
-	padding:20px 0;
-	justify-content: space-between;
-	border-bottom: 1px solid black;
-	border-top: 1px solid black;
-
-}
-.help dt{
-	font-weight: bold;
-	margin:10px 0;
-}
-.help dd{
-	text-indent: 8px;
-}
-.last_p1{
-	font-size: 12px;
-	display: flex;
-	justify-content: space-between;
-}
-.last_p2{
-	float:right;
-	font-size: 12px;
-	margin-bottom:20px;
 }
